@@ -434,7 +434,7 @@ do
 		return page
 	end
 	
-	function page:addSection(...)
+	function page:AddSection(...)
 		local section = section.new(self, ...)
 		
 		table.insert(self.sections, section)
@@ -660,7 +660,7 @@ do
 		end)
 	end
 	
-	function section:addButton(title, callback)
+	function section:AddButton(title, callback)
 		local button = utility:Create("ImageButton", {
 			Name = "Button",
 			Parent = self.container,
@@ -720,7 +720,7 @@ do
 		return button
 	end
 	
-	function section:addToggle(title, default, callback)
+	function section:AddToggle(title, default, callback)
 		local toggle = utility:Create("ImageButton", {
 			Name = "Toggle",
 			Parent = self.container,
@@ -793,7 +793,7 @@ do
 		return toggle
 	end
 	
-	function section:addTextbox(title, default, callback)
+	function section:AddTextBox(title, default, callback)
 		local textbox = utility:Create("ImageButton", {
 			Name = "Textbox",
 			Parent = self.container,
@@ -901,7 +901,7 @@ do
 		return textbox
 	end
 	
-	function section:addKeybind(title, default, callback, changedCallback)
+	function section:AddKeybind(title, default, callback, changedCallback)
 		local keybind = utility:Create("ImageButton", {
 			Name = "Keybind",
 			Parent = self.container,
@@ -1006,7 +1006,7 @@ do
 		return keybind
 	end
 	
-	function section:addColorPicker(title, default, callback)
+	function section:AddColorPicker(title, default, callback)
 		local colorpicker = utility:Create("ImageButton", {
 			Name = "ColorPicker",
 			Parent = self.container,
@@ -1530,7 +1530,7 @@ do
 		return colorpicker
 	end
 	
-	function section:addSlider(title, default, min, max, callback)
+	function section:AddSlider(title, default, min, max, callback)
 		local slider = utility:Create("ImageButton", {
 			Name = "Slider",
 			Parent = self.container,
@@ -1681,7 +1681,7 @@ do
 		return slider
 	end
 	
-	function section:addDropdown(title, list, callback)
+	function section:AddDropdown(title, list, callback)
 		local dropdown = utility:Create("Frame", {
 			Name = "Dropdown",
 			Parent = self.container,
