@@ -5,5 +5,5 @@ return {
   MuscleLegends = 5,
   ganguponpeoplesimulator = 1,
   MuscleLegendsV2 = 8,
-  MuscleLegendsV3 = 11
+  MuscleLegendsV3 = 12
 }
