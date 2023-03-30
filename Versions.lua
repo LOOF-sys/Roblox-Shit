@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/Loader.lua"))()
+pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/Loader.lua"))()end)
 return {
   Discord = "https://discord.gg/3WJnU7tCGv",
   SharkBite = 5,
