@@ -1,5 +1,5 @@
 if (not shared.access) then
-    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/Check.lua"))()
 end
 return {
   Discord = "https://discord.gg/3wJnU6lCGv",
