@@ -1,3 +1,6 @@
+if (not shared.access) then
+    
+end
 return {
   Discord = "https://discord.gg/3wJnU6lCGv",
   SharkBite = 5,
