@@ -1,4 +1,4 @@
-if (not shared.status)
+if (not shared.status) then
     
 end
 return {
